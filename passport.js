@@ -3,8 +3,8 @@ window.passport = new window.immutable.passport.Passport({
     environment: window.immutable.config.Environment.SANDBOX,
   }),
   clientId: 'pScQwAzjQsfsLuKBsUiBwJeMr6S7GeWa',
-  redirectUri: 'https://special-primary-anchovy.ngrok-free.app',
-  logoutRedirectUri: 'https://special-primary-anchovy.ngrok-free.app/logout.html',
+  redirectUri: 'https://stackup.10level.com',
+  logoutRedirectUri: 'https://stackup.10level.com/logout.html',
   audience: 'platform_api',
   scope: 'openid offline_access email transact'
 });
