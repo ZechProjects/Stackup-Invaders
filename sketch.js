@@ -145,7 +145,7 @@ function resumeGame() {
 function draw() {
     if (gameOver) {
         showGameOver();
-    } else if (true || window?.userProfile?.email) {
+    } else if (window?.userProfile?.email) {
         if (!player.gamePaused) {
             background(0);
             drawBG();
