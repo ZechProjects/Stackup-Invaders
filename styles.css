@@ -1,0 +1,68 @@
+body,
+html {
+  max-height: 100vh;
+  /* This will prevent scrolling */
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+#instructions {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #222222;
+  color: #dddddd;
+  padding: 8px;
+  font-size: small;
+}
+
+#actions {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#canvas-holder {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#sketch-holder {
+  max-width: 800px;
+  margin: auto;
+}
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+#nft {
+  max-width: 800px;
+  margin: auto;
+}
+
+#nft-popup {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensure the video covers the entire container */
+  z-index: -1;
+  /* Place the video behind other content */
+}
+
+#nft-popup-title {
+  text-align: center;
+}
